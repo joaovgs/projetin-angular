@@ -1,0 +1,12 @@
+.foto{
+    animation: go-back 1s infinite;
+    width: 10%;   
+}
+@keyframes go-back {
+    from {
+      transform: translateX(1000px);
+    }
+    to {
+      transform: translateX(-1200px);
+    }
+  }
